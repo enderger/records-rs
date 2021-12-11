@@ -1,7 +1,15 @@
 [package]
 name = "records"
+description = "Proc macro for defining data storage structs"
 version = "0.1.0"
+authors = ["Danielle Hutzley <endergeryt@gmail.com>"]
 edition = "2021"
+repository = "https://git.sr.ht/~hutzdog/records-rs"
+readme = "README.md"
+license = "BSD-3-Clause"
+
+keywords = ["proc-macro", "records"]
+categories = ["data-structures"]
 
 [lib]
 proc-macro = true

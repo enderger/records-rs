@@ -1,7 +1,14 @@
+//! Procedral macro for data classes (records)
+
 use proc_macro::TokenStream;
 use syn::{parse_macro_input, Fields, Ident, Type, Visibility};
 
 #[proc_macro_attribute]
+/// Converts a struct into a record (must use named fields)
+/// This does the following:
+/// 1. Make all fields public
+/// 2. Add constructor based on order of fields
+/// 3. Adds tuple `From` implementations
 pub fn record(_metadata: TokenStream, input: TokenStream) -> TokenStream {
     let mut strct = parse_macro_input!(input as syn::ItemStruct);
     let ident = &strct.ident;
