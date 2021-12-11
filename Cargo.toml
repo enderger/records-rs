@@ -5,6 +5,7 @@ version = "0.1.0"
 authors = ["Danielle Hutzley <endergeryt@gmail.com>"]
 edition = "2021"
 repository = "https://git.sr.ht/~hutzdog/records-rs"
+homepage = "https://sr.ht/~hutzdog/records-rs"
 readme = "README.md"
 license = "BSD-3-Clause"
 
