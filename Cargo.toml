@@ -1,7 +1,7 @@
 [package]
 name = "records"
 description = "Proc macro for defining data storage structs"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Danielle Hutzley <endergeryt@gmail.com>"]
 edition = "2021"
 repository = "https://git.sr.ht/~hutzdog/records-rs"
